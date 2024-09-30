@@ -2,13 +2,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 gsap.to(".shape", {
-    yPercent: -50, // Move the shape up by 50% of its height
-    ease: "power4.out", // Use a slower easing function
+    yPercent: -50,
+    ease: "power4.out",
     scrollTrigger: {
         trigger: ".container-fluid",
         start: "top center",
         end: "bottom bottom",
-        scrub: 0.05 // Adjust scrub for smoother scrolling
+        scrub: 0.05
     }
 });
 
@@ -29,7 +29,7 @@ gsap.to(".shape", {
     scrollTrigger: {
         trigger: ".section-3",
         start: "top center",
-        end: "bottom bottom",
+        end: "bottom center",
         scrub: true
     },
     borderRadius: "50%",
@@ -65,7 +65,7 @@ sections.forEach((section) => {
     gsap.to(section.querySelector(".quote"), {
         scrollTrigger: {
             trigger: section,
-            start: "top top",
+            start: "top bottom",
             end: "bottom bottom",
             scrub: true
         },

@@ -115,7 +115,7 @@ section {
 }
 
 .section-2 {
-    background-color: #2391f9; /* Light Green */
+    background-color: #2e58b1; /* Light Green */
 }
 
 .section-3 {
@@ -132,8 +132,19 @@ section {
     transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: 1;
-    transition: all 1s ease; /* Slower transition for shape */
+    transition: all 2s ease; /* Slower transition for shape */
+    animation: breathing 25s ease-in-out infinite normal;
 }
+
+@keyframes breathing {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(2.3);
+    }
+}
+
 
 .text {
     font-family: 'Space Grotesk', sans-serif;
