@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mental Health Awareness Week</title>
+    <title>Mental Health Awareness | Next Steps</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg fixed-top navbar-light bg-light bg-blur"
+      class="navbar navbar-expand-lg fixed-top navbar-dark bg-light bg-blur"
     >
       <div class="container-fluid">
         <a class="navbar-brand logo fs-4" href="index.html">.mental-health-awareness</a>
@@ -40,8 +41,8 @@
               <a class="nav-link" href="#resources">Resources</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="next-steps.html">Next Steps</a>
-              </li>
+              <a class="nav-link" href="next-steps.html">Next Steps</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
@@ -49,39 +50,57 @@
         </div>
       </div>
     </nav>
-    <!-- Box Breathing -->
-    <div class="container-fluid p-0">
-      <div class="shape"></div>
-      <section
-        class="section-1 d-flex justify-content-center align-items-center"
-      >
-        <div class="text-center">
-          <div class="text display-1">Breathe In</div>
-          <div class="quote fs-4 text-white">
-            "Inhale deeply and let your mind settle."
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bg-black" width="100%" height="500px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="container">
+        <div class="carousel-caption text-start">
+          <h1 class="terminal-blink">you@stress: Coding_Mental_Health</h1>
+          <p class="opacity-75 py-4">Don't let the streess overtake you, your mental health is crucial for productivity and well-being. Remember to take breaks, stay connected, and seek help when needed.</p>
+          <p><a class="btn btn-lg btn-primary" href="#">Learn More</a></p>
+        </div>
           </div>
         </div>
-      </section>
-      <section
-        class="section-2 d-flex justify-content-center align-items-center"
-      >
-        <div class="text-center">
-          <div class="text display-1">Hold Your Breath</div>
-          <div class="quote fs-4 text-white">
-            "Stay calm for a bit, no rush."
+        <div class="carousel-item">
+          <div class="carousel-background" style="background-image: url('assets/images/cbt-hero.webp'); height: 500px; background-size: cover; background-position: center; position: relative;">
+            <div class="container h-100 d-flex flex-column justify-content-center">
+              <div class="carousel-caption text-start">
+                <h1><span id="debug"><i class="fa-solid fa-triangle-exclamation"></i> Debug </span>Your Mind</h1>
+                <p class="py-4">Just like code, your thoughts can be optimised. CBT helps you identify and fix negative patterns, enhancing your work/life balance, wellbeing and performance.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Discover more</a></p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section
-        class="section-3 d-flex justify-content-center align-items-center"
-      >
-        <div class="text-center">
-          <div class="text display-1">Breathe Out</div>
-          <div class="quote fs-4 text-white">
-            "Let go of all the worries and stress as long as you can."
+            </div>
           </div>
         </div>
-      </section>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <!-- Resources -->
     <main id="resources">

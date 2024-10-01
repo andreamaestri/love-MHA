@@ -5,8 +5,7 @@
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+    height: 500px;
     user-select: none;
 }
 
@@ -81,7 +80,7 @@
 
 /*-----Logo */
 .bg-light {
-    background-color: rgba(0.2,0.2,0.2, 0.1) !important;
+    background-color: rgba(100, 100, 100, 0.1) !important;
 }
 
 .logo {
@@ -100,26 +99,32 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
+    margin: 0;
 }
 
 section {
-    height: 100vh; /* Full screen height for mobile */
+    height: 100vh;
+    /* Full screen height for mobile */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    transition: background-color 0.5s ease; /* Smooth transition for background */
+    transition: background-color 0.5s ease;
+    /* Smooth transition for background */
 }
+
 .section-1 {
     background-color: #2391f9;
 }
 
 .section-2 {
-    background-color: #2e58b1; /* Light Green */
+    background-color: #2e58b1;
+    /* Light Green */
 }
 
 .section-3 {
-    background-color: #a3cffd; /* Soft Coral */
+    background-color: #a3cffd;
+    /* Soft Coral */
 }
 
 .shape {
@@ -132,19 +137,27 @@ section {
     transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: 1;
-    transition: all 2s ease; /* Slower transition for shape */
+    transition: all 2s ease;
+    /* Slower transition for shape */
     animation: breathing 25s ease-in-out infinite normal;
 }
 
 @keyframes breathing {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translate(-50%, -50%) scale(1);
     }
+
     50% {
         transform: translate(-50%, -50%) scale(2.3);
     }
 }
 
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
 
 .text {
     font-family: 'Space Grotesk', sans-serif;
@@ -153,9 +166,12 @@ section {
     position: relative;
     z-index: 2;
     opacity: 100;
-    filter: blur(15px); /* Start blurred */
-    transition: opacity 0.5s ease-in-out, filter 2s ease; /* Longer fade-in effect */
-    text-align: center; /* Center text */
+    filter: blur(15px);
+    /* Start blurred */
+    transition: opacity 0.5s ease-in-out, filter 2s ease;
+    /* Longer fade-in effect */
+    text-align: center;
+    /* Center text */
 }
 
 .quote {
@@ -163,6 +179,7 @@ section {
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 3;
     color: white;
     font-size: 1.5em;
     opacity: 0;
@@ -170,12 +187,67 @@ section {
 }
 
 .final-section {
-    background-color: white; /* White background for final section */
-    color: black; /* Black text for final section */
-    height: 100vh; /* Full height */
+    background-color: white;
+    /* White background for final section */
+    color: black;
+    /* Black text for final section */
+    height: 100vh;
+    /* Full height */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
 }
 
+.terminal-blink {
+    position: relative;
+    display: inline-block;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.terminal-blink::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -0.5em;
+    background-color: #ffffffb5;
+    width: 0.5em;
+    height: 1em;
+    animation: blink 1s step-end infinite;
+    vertical-align: baseline;
+    /* Align with the baseline of the text */
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+#debug {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: yellow;
+}
