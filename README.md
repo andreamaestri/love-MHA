@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://andreamaestri.github.io/love-MHA/)
+[![alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan%20%C2%B7%2012.15pm%20%C2%B7%2010-02.jpeg)[alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan.jpeg)](https://andreamaestri.github.io/love-MHA/)
 
 This website utilizes HTML and Bootstrap 5 to provide an accessible and responsive platform for mental health awareness.
 
