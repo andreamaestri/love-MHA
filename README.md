@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://andreamaestri.github.io/love-MHA/)
 
 This website utilizes HTML and Bootstrap 5 to provide an accessible and responsive platform for mental health awareness.
 
@@ -68,10 +68,11 @@ This project is mainly focused as a company employees' online resource:
 > As a remote worker, I would like resources specifically tailored for maintaining good mental health while working remotely.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<h2>Wireframe</h2><summary></summary>
+<details>
 
-## Wireframe
-
-![Alt text](assets/images/MHA Week Desktop.png "Figma wireframe")
+![Alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/MHA%20Week%20Desktop.png?raw=true "Figma wireframe")
+</details>
 
 <!-- GETTING STARTED -->
 ## Getting Started
