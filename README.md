@@ -11,164 +11,104 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/css-farme-work-bootstrap-5.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/featured/featured-uses-html.svg)](https://forthebadge.com)
   <p align="center">
-    An all-in-one resource for people that need some mental wellbeing TLC in a website format!
+    An all-in-one resource for mental well-being, designed to support users in accessing vital mental health resources.
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan%20%C2%B7%2012.15pm%20%C2%B7%2010-02.jpeg)[alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan.jpeg)](https://andreamaestri.github.io/love-MHA/)
+[![Feature Screenshot](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan%20%C2%B7%2012.15pm%20%C2%B7%2010-02.jpeg?raw=true)](https://andreamaestri.github.io/love-MHA/)
+![Feature Screenshot](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/Your%20mind%20plan.jpeg?raw=true)
 
-This website utilizes HTML and Bootstrap 5 to provide an accessible and responsive platform for mental health awareness.
+This web application leverages **HTML** and **Bootstrap 5** to provide an accessible and responsive platform for mental health awareness.
 
-Here's why:
-* Bootstrap 5 offers amazing compatibility across devices and makes 'flex' elements easy to implement.
-* HTML is great! :smile:
+### Tools Used
+- **HTML5**: Semantic markup for content structure.
+- **CSS3**: Advanced styling with Flexbox and Grid.
+- **Bootstrap 5**: Responsive UI components.
+- **JavaScript**: Dynamic client-side interactivity.
+- **GSAP**: High-performance animations.
+- **anime.js**: Advanced animation control.
+- **SVG**: Scalable vector graphics.
+- **External Resources**:
+  - [Bootstrap Examples](https://getbootstrap.com/docs/5.3/examples/) (navbar, blog, jumbotron)
+  - Codepen Examples:
+    - [Example 1](https://codepen.io/codingyaar/pen/ExLZayv)
+    - [Example 2](https://codepen.io/collection/AEbkkJ?cursor=eyJwYWdlIjo0fQ==)
+    - [Example 3](https://codepen.io/stoic25/pen/xwVZyo)
+- **GitHub Copilot**: Assisted in troubleshooting and understanding code.
+
+### Resources
+- **NHS Minds Matter**: Comprehensive mental health resources.
+- **NHS API/Widget**: Integration of health data.
+- **DrawKit**: Licensed vector icons and illustrations.
+- **FontAwesome**: Icon library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USER STORIES -->
 ## User Stories
 
-This project is mainly focused as a company employees' online resource:
+The project is designed primarily as an online resource for company employees:
 
-> As an employee, I want to easily access information about mental health resources available within the company.
-
-> As a manager, I want to find tips and tools for supporting my team's mental well-being.
-
-> As an employee, I want to have access to mindfulness and stress-reduction techniques that can be easily integrated into my workday.
-
-> As a remote worker, I would like resources specifically tailored for maintaining good mental health while working remotely.
+- **As an employee**, I want to access mental health resources quickly.
+- **As a manager**, I seek tools to support my team's mental well-being.
+- **As an employee**, I want mindfulness techniques to integrate into my workday.
+- **As a remote worker**, I need resources tailored to maintaining mental health while working remotely.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<h2>Wireframe</h2><summary></summary>
+
+<!-- WIREFRAME -->
+## Wireframe
 <details>
-
-![Alt text](https://github.com/andreamaestri/love-MHA/blob/main/assets/images/MHA%20Week%20Desktop.png?raw=true "Figma wireframe")
+<summary>View Wireframe</summary>
+<img src="https://raw.githubusercontent.com/andreamaestri/love-MHA/refs/heads/main/assets/images/MHA%20Week%20Desktop.png">
 </details>
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-Clone this git repository. 
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
-> git clone https://github.com/github_username/repo_name.git
-2. Navigate to the project directory
-> cd mental-health-awareness
-3. Open the project in your preferred code editor (e.g., Visual Studio Code)
-> code .
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-Look at GitHub Projects!
+### Project To-Do List
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-  
+#### General
+- [x] Implement GitHub Pages
+- [x] Add Video
+
+#### Features
+- [x] Add Carousel
+  - [x] Integrate carousel into "next-steps.html"
+  - [x] Populate with relevant mental health content
+- [x] Implement Box Breathing Exercise
+  - [ ] Ensure smooth scrolling experience
+  - [x] Integrate shape morphing with text transition
+- [x] Add Resources Section
+  - [ ] Include links for:
+    - [ ] NHS Talking Therapies
+    - [ ] Headspace
+    - [ ] Able Futures
+    - [ ] CBT Therapy
+
+#### User Experience
+- [ ] Enhance Scroll Experience
+  - [ ] Implement ScrollSmoother for better UX
+  - [ ] Ensure natural, breathing-like scroll effect
+- [ ] Add .mental-health-awareness section
+
+#### Accessibility
+- [x] Implement alt attributes for images.
+
+#### Footer Content
+- [x] Add footer
+  - [ ] Include navigation links to relevant sections
+  - [ ] Add newsletter subscription form
+  - [ ] Add social media links
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [love-MHA GitHub Repository](https://github.com/andreamaestri/love-MHA)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
